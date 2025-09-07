@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000E\u0000c\u0000h\u0000o\u0000 \u0000C\u0000h\u0000a\u0000t\u0000-\u0000a\u0000p\u0000p\u0000l\u0000i\u0000c\u0000a\u0000t\u0000i\u0000o\u0000n\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
