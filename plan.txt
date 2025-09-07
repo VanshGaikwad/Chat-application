@@ -5,6 +5,8 @@ TODO:
 [x] Install dependancies, express, nodemon(dev dep.)
 [x] Create Express Server
 [x] Do Frontend Part
+[x] Install Socket.io, Setup socket.io in sever.js and client client.js
+
 
 
 
