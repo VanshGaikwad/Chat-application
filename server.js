@@ -11,6 +11,8 @@ http.listen(PORT,()=>{
     console.log(`Server is running on port ${PORT}`);
 })
 
+app.use(express.static(__dirname + '/public'))
+
 app.get('/',(req,res)=>{
-    res.send('Hello universe');
+   res.sendFile(__dirname + '/index.html')
 })
