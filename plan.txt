@@ -3,4 +3,7 @@ TODO:
 [x] Create Index ,Css ,Js files
 [x] Create Index ,Css ,Js files
 [x] Install dependancies, express, nodemon(dev dep.)
+[x] Create Express Server
+
+
 
