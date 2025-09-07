@@ -6,6 +6,9 @@ TODO:
 [x] Create Express Server
 [x] Do Frontend Part
 [x] Install Socket.io, Setup socket.io in sever.js and client client.js
+[x] Client send message logic in client.js
+[x] Receive message on server and broadcast to all clients
+[x] Receive message on client and display it. scrollToBottom etc...
 
 
 

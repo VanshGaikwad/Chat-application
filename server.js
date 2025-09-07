@@ -22,7 +22,13 @@ app.get('/',(req,res)=>{
 const io = require('socket.io')(http)
 
 io.on('connection',(socket)=>{
-    console.log('A user connected');    
+    console.log('A user connected'); 
+    
+    socket.on('message',(msg)=>{
+        // broadcasting the message to all the clients except the sender
+        socket.broadcast.emit('message',msg);
+        // console.log(msg);
+    })
 
     
     
