@@ -2,5 +2,5 @@ TODO:
 [x] Create NPM project
 [x] Create Index ,Css ,Js files
 [x] Create Index ,Css ,Js files
-
+[x] Install dependancies, express, nodemon(dev dep.)
 
